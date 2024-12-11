@@ -120,6 +120,7 @@ function otherList(){
       <h2 className="margin">Current Task (4)</h2>
       <ul>{otherList()}</ul>
       <hr />
+      <h2 className="margin">Completed Task (6)</h2>
       <ul>{completeList()}</ul>
       </main>
       
