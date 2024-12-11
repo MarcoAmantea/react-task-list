@@ -84,10 +84,9 @@ function App() {
     return (
       <ul>
       <li key={curElem.id}>
-      <h5>{curElem.title}</h5>
+      <h5>{curElem.title} <span className="margin color">Stato: {curElem.state}</span></h5>
       <p>priority: {curElem.priority}</p>
       <p>Est. Time:{curElem.estimatedTime}</p>
-      <p className="margin">Stato: {curElem.state}</p>
       </li>
       </ul>
     )
@@ -99,10 +98,9 @@ function otherList(){
       return (
         <ul>
         <li key={curElem.id}>
-        <h5>{curElem.title}</h5>
+        <h5>{curElem.title} <span className="margin color">Stato: {curElem.state}</span></h5>
         <p>priority: {curElem.priority}</p>
         <p>Est. Time:{curElem.estimatedTime}</p>
-        <p className="margin">Stato: {curElem.state}</p>
         </li>
         </ul>
       )
